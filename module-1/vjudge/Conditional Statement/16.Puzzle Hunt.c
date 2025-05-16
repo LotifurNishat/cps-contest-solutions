@@ -1,15 +1,14 @@
 #include<stdio.h>
 
-
 int main() {
 
     int n;
     scanf("%d", & n);
 
-    if (n == 7) {
-        printf("THALA\n");
+    if (6 <= n && n <= 8) {
+        printf("Yes\n");
     } else {
-        printf("SADGE\n");
+        printf("No\n");
     }
 
     return 0;
