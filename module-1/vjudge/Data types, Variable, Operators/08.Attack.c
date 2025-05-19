@@ -1,14 +1,16 @@
 #include <stdio.h>
-int main () {
+
+int main() {
     // A - x*B <= 0
     // x * B >= A
     // x >= A / B
-    // 5.1 -> 6
-    // 5.1 -> 5
-    // 27 + 4 / 5 = 6
-
-Long Long a, b;
-scanf("%lld%lld", &a, &b);
-Long Long x = (a + b - 1) / b;
-printf("%lld\n", x);
-return 0;
+    // 5.1 -> 6 (ceiling)
+    // 5.1 -> 5 (floor)
+    // (27 + 4) / 5 = 6 (ceiling trick)
+    
+    long long a, b;
+    scanf("%lld %lld", &a, &b);
+    long long x = (a + b - 1) / b; // Ceiling division
+    printf("%lld\n", x);
+    return 0;
+}
