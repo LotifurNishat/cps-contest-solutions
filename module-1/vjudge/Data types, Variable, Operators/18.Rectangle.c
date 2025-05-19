@@ -1,10 +1,10 @@
-#include <stdio.h>
-#include <math.h>
-int main () {
-    int a, b;
-    scanf("%d%d", &a, &b);
-    int area = a * b;
-    int per = 2 * (a + b);
-    printf("%d %d\n", area, per);
-    return 0;
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int x, y;
+    scanf("%d%d", &x, &y);
+    printf("%d\n", x * y);
+	return 0;
+
 }
