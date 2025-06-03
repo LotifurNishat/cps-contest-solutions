@@ -1,11 +1,13 @@
 #include <stdio.h>
+
 #include<ctype.h>
+
 int main() {
     char s[105];
-    scanf("%s",s);
+    scanf("%s", s);
     int i;
-    for(i=0;;i++){
-        if(isupper(s[i]))break;
+    for (i = 0;; i++) {
+        if (isupper(s[i])) break;
     }
-    printf("%d\n",i+1);
+    printf("%d\n", i + 1);
 }

@@ -1,4 +1,5 @@
 #include<stdio.h>
-int main(){
-   //Solution not updated yet
+
+int main() {
+    //Solution not updated yet
 }
